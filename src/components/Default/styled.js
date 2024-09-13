@@ -16,13 +16,14 @@ export const Container = styled.div`
     svg {
         width: 100px;
         height: 100px;
-        color: green;
+        color: #E82ABF;
     }
 
 `;
 
-export const Title = styled.div`
+export const Title = styled.h1`
     text-align: center;
+    
 
 `;
 
@@ -30,4 +31,5 @@ export const Info = styled.span`
     font-size: 18px;
     text-align: center;
     max-width: 500px;
+    
 `;

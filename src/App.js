@@ -10,7 +10,7 @@ import Chat from "./components/Chat";
 
 const App = () => {
     const [user, loading] = useAuthState(auth);
-    const [userchat, setUserChat] = useState(null);
+    const [userChat, setUserChat] = useState(null);
     useEffect(()=> {
         if (user) {
             db.collection("users").doc(user.uid).set({
@@ -27,8 +27,8 @@ const App = () => {
     return (
         <>
         <C.Container>
-        <Sidebar  setUserChat={setUserChat} userchat={userchat} />
-        <Chat userchat={userchat} />
+        <Sidebar  setUserChat={setUserChat} userChat={userChat} />
+        <Chat userChat={userChat} />
         </C.Container>
         </>
     ); 

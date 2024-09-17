@@ -3,6 +3,7 @@ import App from "./App";
 import GlobalStyle from "./styles/global";
 
 
+
 const root = createRoot(document.querySelector("#root"));
 
 root.render(<>

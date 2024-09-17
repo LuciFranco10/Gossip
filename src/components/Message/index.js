@@ -12,7 +12,7 @@ const Message = ({ user, message }) => {
         <C.Content>
           <C.Message>{message.message}</C.Message>
           <C.MessageDate>
-            {new Date(message?.timestamp).toLocaleString()}
+            {new Date(message?.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
           </C.MessageDate>
         </C.Content>
       </C.Line>

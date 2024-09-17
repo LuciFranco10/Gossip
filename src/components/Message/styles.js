@@ -8,14 +8,14 @@ export const Line = styled.div`
 
   &.me {
     > div {
-      background-color: #F5EFE3;
+      background-color: #dee2ff;
       }
       justify-content: right;
       }
       `;
       
   export const Content = styled.div`
-   background-color: #779BF5;
+   background-color: #cbc0d3;
   border-radius: 10px;
   box-shadow: 0 1px 1px #ccc;
   display: flex;

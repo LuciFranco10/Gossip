@@ -18,6 +18,7 @@ cursor: pointer;
 border-radius: 50%;
 
 
+
 `;
 
 export const Options = styled.div`
@@ -27,7 +28,7 @@ gap: 10px;
     svg{
         width:24px;
         height:24px;
-        color: #54656f;
+        color: #9957a3;
         cursor: pointer;    
     }
 `;

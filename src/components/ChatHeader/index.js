@@ -13,10 +13,7 @@ const ChatHeader = ({ photoURL, name }) => {
                     <C.Name>{name}</C.Name>
                 </C.NameContent>
            </C.UserInfo>
-           <C.Options>
-                <MdSearch />
-                <MdMoreVert />
-           </C.Options>
+          
         </C.Container>
     );
 };

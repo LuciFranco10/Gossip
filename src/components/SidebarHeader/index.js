@@ -44,10 +44,9 @@ const SidebarHeader = ({setUserChat}) => {
         onClick={() => [auth.signOut(), setUserChat(null)]}
         />
 
-        <C.Options>
-            <MdDonutLarge/>
+        <C.Options>  
             <MdChat onClick={handleCreateChat} />
-            <MdMoreVert />
+            
             </C.Options>
     </C.Container>
     );

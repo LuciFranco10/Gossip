@@ -6,13 +6,22 @@ import { auth } from "../../services/firebase";
 const Message = ({ user, message }) => {
   const [userLoggedIn] = useAuthState(auth);
 
+  // Define as cores baseadas no tipo de mensagem
+  const isMyMessage = userLoggedIn?.email === user;
+  const messageColor = isMyMessage ? 'black' : 'white'; // Cor da fonte: preto para mensagens enviadas, branco para mensagens recebidas
+  const backgroundColor = isMyMessage ? '#eaeaea' : '#a48df7'; // Cor de fundo: cinza para mensagens enviadas, roxo para mensagens recebidas
+  const dateColor = isMyMessage ? 'black' : 'white'; // Cor da data: preto para mensagens enviadas, branco para mensagens recebidas
+
   return (
     <C.Container>
-      <C.Line className={userLoggedIn?.email === user ? "me" : ""}>
-        <C.Content>
-          <C.Message>{message.message}</C.Message>
-          <C.MessageDate>
-            {new Date(message?.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+      <C.Line className={isMyMessage ? "me" : "them"}>
+        <C.Content bgColor={backgroundColor}>
+          <C.Message color={messageColor}>{message.message}</C.Message>
+          <C.MessageDate color={dateColor}>
+            {new Date(message?.timestamp).toLocaleTimeString([], {
+              hour: '2-digit',
+              minute: '2-digit'
+            })}
           </C.MessageDate>
         </C.Content>
       </C.Line>
@@ -21,3 +30,4 @@ const Message = ({ user, message }) => {
 };
 
 export default Message;
+

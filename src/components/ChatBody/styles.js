@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     flex: 1;
-    background-image: url('/image.jpeg');
+    background-color: #fff;
     overflow-y: auto;
     
     &::-webkit-scrollbar {

@@ -60,13 +60,14 @@ export const Message = styled.span`
   font-size: 14px;
   margin: 5px 40px 5px 5px;
   color: ${({ color }) => color || 'black'}; /* Usa a prop de cor, com 'black' como padrão */
+  font-weight: bold;
 `;
 
 export const MessageDate = styled.span`
   font-size: 10px;
   color: ${({ color }) => color || 'black'}; /* Usa a prop de cor, com 'black' como padrão */
   text-align: right;
-  height: 15px;
   margin: 5px 5px 0;
+  font-weight: bold;
 `;
 

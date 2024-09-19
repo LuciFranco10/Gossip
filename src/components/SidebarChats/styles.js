@@ -17,5 +17,5 @@ export const Content =styled.div``;
 
 export const Divider =styled.div`
  margin: 0 10px;
- border-top: solid 1px #daddd8;
+ border-top: solid 1px #a48df7;
 `;

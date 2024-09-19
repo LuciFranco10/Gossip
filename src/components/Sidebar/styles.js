@@ -5,9 +5,9 @@ export const Container = styled.div`
   position: relative;
   width: 35%;
   max-width: 415px;
-  border: 0.5px solid #eef0f;
+  border: 1px solid #dee2ff;
   height: 100vh;
-  background-color: #f4f4f6;
+  background-color: #fbfefb;
 `;
 
 export const LogoutButton = styled.button`

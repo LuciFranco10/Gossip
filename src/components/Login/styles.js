@@ -15,39 +15,40 @@ export const fadeAnimation = keyframes`
     transform: translateY(-20px);
   }
 `;
-
-
 export const Container = styled.div`
   display: flex;
   height: 100vh;
   align-items: center;
   justify-content: flex-end;
-  background: 
-    linear-gradient(180deg, #ffdcd5 0, #ffcbc7 25%, #f2b5b5 50%, #e4a0a5 75%, #d88f9a 100%) left no-repeat,
-    url('/moca.jpeg') right no-repeat;
-  background-size: 60% 100%, 30% 65%; /* Ajusta o tamanho do gradiente e da imagem */
-  background-position: left, 95%; /* Posiciona o gradiente à esquerda e a imagem à direita */
+  background-color: #2b2d42;
 `;
 
 
-export const Title = styled.h1`
-  font-size: 70px;
+
+  export const Title = styled.h1`
+  font-size: 80px;
   font-weight: bold;
   text-align: center;
   margin-bottom: 30px; 
-  color: #0a0a0a; 
-  font-family: 'Playpen Sans', cursive;
-  animation: ${fadeAnimation} 2s ease-in-out infinite;
+  color: #eef4ed; 
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  Animation: ${fadeAnimation} 2s ease-in-out infinite;
 `;
 
-
 export const SubTitle = styled.p`
-  font-size: 24px;
+  font-size: 32px;
   font-weight: normal;
   text-align: center;
   margin-bottom: 30px; 
-  color: #0a0a0a; 
-   font-family: 'Playpen Sans', sans-serif;
+  color: #eef0f2; 
+   font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
 `;
 
 export const Button = styled.button`
@@ -58,12 +59,12 @@ export const Button = styled.button`
   justify-content: center;
   padding: 14px 18px;
   height: 60px;
-  border-radius: 10px;
-  background-color: #f5f5f5;
+  border-radius: 5px;
+  background-color: #daddd8;
   color: #333;
   cursor: pointer;
   transition: all 0.3s ease;
-  border: 1px solid #ccc;
+  border: 1px solid #a480cf;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-top: 20px; /* Espaço entre o botão e o título */
 
@@ -72,9 +73,9 @@ export const Button = styled.button`
   }
 
   &:hover {
-    background-color: #DCDCDC;
+    background-color: #1976d2;
     color: white;
-    border-color: #ffcccb;
+    border-color: #b8bedd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   }
 
@@ -85,24 +86,33 @@ export const Button = styled.button`
   }
 
   &:active {
-    background-color: darkpink;
-    border-color: #ff9999;
+    background-color: daddd8;
+    border-color: #c77dff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 `;
 
 export const LeftSection = styled.div`
-  flex: 1; /* Permite que a seção ocupe o espaço disponível à esquerda */
+  flex: 1.5;
   display: flex;
-  flex-direction: column; /* Empilha o título e o botão verticalmente */
+  flex-direction: column;
   align-items: center;
-  justify-content: center; /* Alinha o conteúdo ao centro, se necessário */
-  padding: 20px; /* Adiciona um pouco de espaço ao redor do conteúdo */
+  justify-content: center;
+  
 `;
 
 export const RightSection = styled.div`
-  flex: 1; /* Permite que a seção ocupe o espaço disponível à direita */
+  flex: 1;
   display: flex;
-  align-items: center;
-  justify-content: center; /* Alinha o conteúdo ao centro, se necessário */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  min-height: 100vh;
+  background-color: #eef0f2; /* Fundo opcional */
+
+`;
+
+export const Image = styled.img`
+  max-width: 70%; /* Define a largura máxima da imagem */
+  max-height: 90%; /* Define a altura máxima da imagem */
+
 `;

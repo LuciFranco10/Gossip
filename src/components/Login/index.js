@@ -2,6 +2,8 @@ import React from "react";
 import { auth, provider } from "../../services/firebase";
 import * as C from "./styles";
 import GoogleIcon from '@mui/icons-material/Google';
+import { Container, LeftSection, RightSection, Image } from './styles'; 
+
 
 
 const Login = () => {
@@ -15,6 +17,8 @@ const Login = () => {
     <C.Container>
       {/* Seção esquerda com a imagem */}
       <C.LeftSection>
+      
+
       <C.Title>Chat On</C.Title>
       <C.SubTitle>"Conecte-se, explore e conquiste!"</C.SubTitle>
       <C.Button onClick={handleSignin}>
@@ -27,14 +31,15 @@ const Login = () => {
           Sign In with Google
         </C.Button>
         
-      </C.LeftSection>
-      {/* Seção direita com o botão de login */}
-        
-      <C.RightSection>
-         
-      </C.RightSection>
-    </C.Container>
-  );
+        </C.LeftSection>
+
+{/* Seção direita com a imagem */}
+<C.RightSection>
+<Image src="/user.png" alt="login_imagem" />
+        </C.RightSection> 
+</C.Container>
+
+);
 };
 
 export default Login;

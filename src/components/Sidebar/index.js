@@ -3,6 +3,8 @@ import * as C from "./styles";
 import SidebarHeader from './../SidebarHeader/index';
 import SidebarChats from './../SidebarChats/index';
 
+
+
 const Sidebar = ({setUserChat, userchat}) => {
     return (
     <C.Container>

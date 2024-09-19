@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 height: 59px;
-background-color: #f0f2f5;
+background-color: #eaedff;
 padding: 10px 16px;
 display: flex;
 align-items: center;
@@ -18,6 +18,7 @@ cursor: pointer;
 border-radius: 50%;
 
 
+
 `;
 
 export const Options = styled.div`
@@ -27,7 +28,7 @@ gap: 10px;
     svg{
         width:24px;
         height:24px;
-        color: #54656f;
+        color: #5c0099;
         cursor: pointer;    
     }
 `;

@@ -44,7 +44,7 @@ export const SubTitle = styled.p`
   text-align: center;
   margin-bottom: 30px; 
   color: #eef0f2; 
-   font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;

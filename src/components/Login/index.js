@@ -3,6 +3,10 @@ import { auth, provider } from "../../services/firebase";
 import * as C from "./styles";
 import GoogleIcon from '@mui/icons-material/Google';
 import LogoutIcon from '@mui/icons-material/Logout';
+import { Container, LeftSection, RightSection, Image } from './styles'; 
+ 
+
+
 const Login = () => {
   const handleSignin = () => {
     auth.signInWithPopup(provider)
@@ -34,6 +38,8 @@ const Login = () => {
       </C.LeftSection>
       {/* Seção direita com o botão de login */}
       <C.RightSection>
+      <Image src="/user.png" alt="login_imagem" />
+
       </C.RightSection>
     </C.Container>
   );

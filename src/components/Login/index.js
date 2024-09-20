@@ -23,6 +23,7 @@ const Login = () => {
   return (
     <C.Container>
       {/* Seção esquerda com a imagem */}
+
       <C.LeftSection>
         <C.Title>Chat On</C.Title>
         <C.SubTitle>"Conecte-se, explore e conquiste!"</C.SubTitle>
@@ -36,10 +37,11 @@ const Login = () => {
           Sign In with Google
         </C.Button>
       </C.LeftSection>
-      {/* Seção direita com o botão de login */}
-      <C.RightSection>
-      <Image src="/user2.jpeg" alt="login_imagem" />
 
+      {/* Seção direita com o botão de login */}
+
+      <C.RightSection>
+      <Image src="/user.png" alt="login_imagem" />
       </C.RightSection>
     </C.Container>
   );

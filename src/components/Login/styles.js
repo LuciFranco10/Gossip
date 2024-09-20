@@ -107,7 +107,7 @@ export const RightSection = styled.div`
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
   min-height: 100vh;
-  background-color: #240046; /* Fundo opcional */
+  background-color: #e5e5e5; /* Fundo opcional */
 
 `;
 

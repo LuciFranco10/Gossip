@@ -5,14 +5,14 @@ export const Container = styled.div`
   bottom: 0;
   width: 100%;
   padding: 10px 20px;
-  background-color: #eaedff;
+  background-color: #e9ecef;
   display: flex;
   box-shadow: 2px 1px 3px 1px #0003;
 
   svg {
     width: 25px;
     height: 25px;
-    color: #5c0099;
+    color: #013a63;
   }
 `;
 

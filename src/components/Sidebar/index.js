@@ -22,7 +22,7 @@ const Sidebar = ({ setUserChat, userchat }) => {
       <SidebarHeader setUserChat={setUserChat} />
       <SidebarChats setUserChat={setUserChat} userchat={userchat} />
       <C.LogoutButton onClick={handleLogout}>
-        <LogoutIcon style={{ color: '#5c0099', fontSize: 32 }} />  {/* Ícone com cor roxa */}
+        <LogoutIcon style={{ color: '#013a63', fontSize: 35 }} />  {/* Ícone com cor roxa */}
       </C.LogoutButton>
     </C.Container>
   );

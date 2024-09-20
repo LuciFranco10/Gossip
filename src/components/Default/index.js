@@ -5,9 +5,9 @@ const Default = () => {
     return (
       <C.Container>
         <img src="/image.jpeg" alt="Imagem do chat" style={{ width: '100px', height: '100px' }} />
-        <C.Title>Chat App</C.Title>
+        <C.Title>ChatOn</C.Title>
         <C.Info>
-          Agora você pode enviar e receber mensagens sem precisar manter seu celular conectado à internet.
+        Suas conversas sem complicação, aproveitando toda a praticidade do ChatOn.
         </C.Info>
       </C.Container>
     );

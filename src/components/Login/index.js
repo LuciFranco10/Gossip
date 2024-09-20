@@ -38,7 +38,7 @@ const Login = () => {
       </C.LeftSection>
       {/* Seção direita com o botão de login */}
       <C.RightSection>
-      <Image src="/user.png" alt="login_imagem" />
+      <Image src="/user2.jpeg" alt="login_imagem" />
 
       </C.RightSection>
     </C.Container>

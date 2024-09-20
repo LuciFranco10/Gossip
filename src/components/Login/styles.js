@@ -20,7 +20,7 @@ export const Container = styled.div`
   height: 100vh;
   align-items: center;
   justify-content: flex-end;
-  background-color: #240046;
+  background-color: #14213d;
 `;
 
 

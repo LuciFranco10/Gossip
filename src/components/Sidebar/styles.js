@@ -40,7 +40,7 @@ export const SidebarChatsItem = styled.div`
   cursor: pointer;
 
   &:hover {
-    background-color: #ffffff; // Altera o fundo para branco ao passar o mouse
+    background-color: #fff; // Altera o fundo para branco ao passar o mouse
     color: #333333; // (Opcional) Altera a cor do texto, se desejar
   }
 `;

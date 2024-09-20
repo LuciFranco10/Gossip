@@ -37,6 +37,10 @@ export const Name = styled.span`
     font-size: 18px;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 `;
 
 

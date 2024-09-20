@@ -20,7 +20,7 @@ export const Container = styled.div`
   height: 100vh;
   align-items: center;
   justify-content: flex-end;
-  background-color: #2b2d42;
+  background-color: #240046;
 `;
 
 
@@ -107,12 +107,12 @@ export const RightSection = styled.div`
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
   min-height: 100vh;
-  background-color: #eef0f2; /* Fundo opcional */
+  background-color: #240046; /* Fundo opcional */
 
 `;
 
 export const Image = styled.img`
-  max-width: 70%; /* Define a largura máxima da imagem */
-  max-height: 90%; /* Define a altura máxima da imagem */
+  max-width: 90%; /* Define a largura máxima da imagem */
+  max-height: 100%; /* Define a altura máxima da imagem */
 
 `;

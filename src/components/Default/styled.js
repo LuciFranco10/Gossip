@@ -20,11 +20,21 @@ export const Image = styled.img`
 `;
 
 export const Title = styled.h1`
+font-size: 4rem;
   text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
 `;
 
 export const Info = styled.span`
   font-size: 18px;
   text-align: center;
   max-width: 500px;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 `;

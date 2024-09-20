@@ -5,9 +5,14 @@ export const Container = styled.div`
   position: relative;
   width: 35%;
   max-width: 415px;
-  border: 1px solid #dee2ff;
+  border: 1px solid #e9ecef;
   height: 100vh;
   background-color: #fbfefb;
+  color: #000814;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
 `;
 
 export const LogoutButton = styled.button`
@@ -20,6 +25,7 @@ export const LogoutButton = styled.button`
   left: 10px;
   outline: none;
   box-shadow: none;
+  
 
   &:hover, &:focus, &:active {
     outline: none;

@@ -31,7 +31,7 @@ export const Line = styled.div`
   }
 
   &.them > div {
-    background-color: #3a86ff; /* cor das mensagens recebidas */
+    background-color: #1d3557; /* cor das mensagens recebidas */
   }
 
   &.them > div::after {
@@ -41,7 +41,7 @@ export const Line = styled.div`
     left: -1.5px; /* Ajusta a seta à esquerda para mensagens recebidas */
     width: 0;
     height: 0;
-    border-top: 10px solid #3a86ff; /* cor da seta para mensagens recebidas */
+    border-top: 10px solid #1d3557; /* cor da seta para mensagens recebidas */
     border-left: 10px solid transparent;
   }
 `;
